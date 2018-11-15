@@ -3,7 +3,7 @@
 /*--------------------------------Mobile View--------------*/
  @media (max-width:768px) {
     body{
-        background:url('./css/bg.jpg')no-repeat center center fixed; 
+        background:url('/css/bg.jpg')no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -15,6 +15,7 @@
         font-weight: bolder;
      
 }
+/* nav bar no working links, just for the layout */
     nav{
         
         display: block;
@@ -120,8 +121,8 @@
     .box1 .view img {
         display: flex;
         position: relative;
-        background-position: left;
-        background-attachment: fixed; 
+        
+        /* background-attachment: fixed;  */
 }
     .box1 .view h2 {
         text-transform: uppercase;
